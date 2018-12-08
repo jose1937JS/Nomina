@@ -1,7 +1,8 @@
 <?php ob_start();
-require_once 'Dompdf/autoload.inc.php';
-use Dompdf\Dompdf;
+// require_once '../../Dompdf/autoload.inc.php';
+require '../vendor/autoload.php';
 
+use Dompdf\Dompdf;
 
 include './control/model/modeloNomina.php';
 include './numeroTo_Text.php';
