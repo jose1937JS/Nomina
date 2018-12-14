@@ -5,11 +5,18 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="css/mdb.min.css">
 	<link rel="stylesheet" href="css/font-awesome.css">
+	<link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"> 
 
 	<style>
+	/** {
+		font-family: 'Nunito', sans-serif;
+	}*/
 		.peq {
 			font-size: 20px;
 			font-style: oblique;
+		}
+		.testimonial-card {
+			width: 250px
 		}
 	</style>
 </head>
@@ -17,7 +24,7 @@
 
 	<!--Navbar-->
 	<nav class="navbar navbar-expand-lg navbar-dark primary-color sticky-top">
-
+		<div class="container">
 		<!-- Navbar brand -->
 		<a class="navbar-brand" href="#">CompuPhones</a>
 
@@ -38,7 +45,7 @@
 			</ul>
 		</div>
 		<!-- Collapsible content -->
-
+		 </div>
 	</nav>
 	<!--/.Navbar-->
 
@@ -48,13 +55,18 @@
 	</div> -->
 
 	<!-- Jumbotron -->
-	<div class="card card-image" style="background-image: url(soporte-tecnico-empresas-grande.jpg); background-attachment: fixed;">
-		<div class="text-white rgba-stylish-strong py-5 px-4">
-			<div class="py-5">
+	<div class="card card-image" style="background-image: url(soporte-tecnico-empresas-grande.jpg); background-attachment: fixed; height: 500px;">
+		<div class="text-white rgba-stylish-strong" style="height: 100%;">
+			<div class="container">
+				<div class="row py-5">
+					<div class="col-lg-8 col-md-8 col-sm-12">
+						<h1 class="font-weight-normal display-4 my-4">CompuPhones</h1>
+						<p class="font-italic h4">La tecnología en un solo lugar.</p> 
+						<p class="mb-4 pb-2 lead">Es una empresa dedicada al servicio técnico en computación y dispositivos moviles, la venta de accesorios y repuestos para celulares así como también a la actualización de software y aplicaciones.</p>
 
-				<h1 class="card-title h1">CompuPhones <small class="peq">La tecnología en un solo lugar.</small></h1>
-				<p class="mb-4 pb-2 lead">Es una empresa dedicada al servicio técnico en computación y dispositivos moviles, la venta de accesorios y repuestos para celulares así como también a la actualización de software y aplicaciones.</p>
-
+						<a href="#" class="btn btn-primary">Saber más...</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -65,7 +77,9 @@
 			<div class="col">
 				<div class="card">
 					<div class="card-body">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque distinctio molestiae quas nemo velit quaerat quasi sit, beatae pariatur aut.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis
 					</div>
 				</div>
 			</div>
@@ -86,8 +100,50 @@
 		</div>
 	</div>
 
-	<div class="jumbotron mb-5">
+	<div class="jumbotron container mb-5">
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut nesciunt, maiores suscipit. Voluptatem ipsa quos neque, ad assumenda! Labore quo, culpa alias ex nihil tenetur dolorem at nesciunt, tempore earum!
+	</div>
+
+	<div class="container mb-5">
+		<div class="d-flex justify-content-center">
+			
+			<div class="card testimonial-card mr-5">
+				<div class="card-up indigo lighten-1"></div>
+				<div class="avatar mx-auto white">
+					<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" alt="woman avatar">
+				</div>
+				<div class="card-body">
+					<h4 class="card-title">Anna Doe</h4>
+					<hr>
+					<p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+				</div>
+			</div>
+
+			<div class="card testimonial-card mr-5">
+				<div class="card-up indigo lighten-1"></div>
+				<div class="avatar mx-auto white">
+					<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" alt="woman avatar">
+				</div>
+				<div class="card-body">
+					<h4 class="card-title">Anna Doe</h4>
+					<hr>
+					<p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+				</div>
+			</div>
+
+			<div class="card testimonial-card mr-5">
+				<div class="card-up indigo lighten-1"></div>
+				<div class="avatar mx-auto white">
+					<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" alt="woman avatar">
+				</div>
+				<div class="card-body">
+					<h4 class="card-title">Anna Doe</h4>
+					<hr>
+					<p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+				</div>
+			</div>
+
+		</div>
 	</div>
 	
 
