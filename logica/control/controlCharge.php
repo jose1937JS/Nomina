@@ -1,5 +1,5 @@
 <?php 
-include 'model/ModeloCargo.php';
+include 'model/modeloCargo.php';
 extract($_POST);
 
 // if ($_POST['operationCharge']=="InsertIntoCharge") {

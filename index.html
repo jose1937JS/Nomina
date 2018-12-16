@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -28,7 +27,7 @@
 <body>
 
 	<!--Navbar-->
-	<nav class="navbar navbar-expand-lg navbar-dark primary-color sticky-top">
+	<nav class="navbar navbar-expand-lg navbar-dark indigo sticky-top z-depth-2">
 		<div class="container">
 		<!-- Navbar brand -->
 		<a class="navbar-brand" href="#">CompuPhones</a>
@@ -44,20 +43,14 @@
 			<!-- Links -->
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="nav-link" href="#">Entrar al sistema</a>
+					<a class="nav-link" href="templates/login.php"><i class="fa fa-sign-in"></i> Entrar al sistema</a>
 				</li>
-
 			</ul>
 		</div>
 		<!-- Collapsible content -->
 		 </div>
 	</nav>
 	<!--/.Navbar-->
-
-<!-- 	<div class="jumbotron">
-		<p class="display-4">CompuPhones</p>
-		<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem maxime illo at odio.</p>
-	</div> -->
 
 	<!-- Jumbotron -->
 	<div class="card card-image" style="background-image: url(soporte-tecnico-empresas-grande.jpg); background-attachment: fixed; height: 500px;">
@@ -68,8 +61,6 @@
 						<h1 class="font-weight-normal display-4 my-4">CompuPhones</h1>
 						<p class="font-italic h4">La tecnología en un solo lugar.</p> 
 						<p class="mb-4 pb-2 lead">Es una empresa dedicada al servicio técnico en computación y dispositivos moviles, la venta de accesorios y repuestos para celulares así como también a la actualización de software y aplicaciones.</p>
-
-						<a href="#" class="btn btn-primary">Saber más...</a>
 					</div>
 				</div>
 			</div>
@@ -80,78 +71,204 @@
 	<div class="container my-5">
 		<div class="row">
 			<div class="col">
-				<div class="card">
-					<div class="card-body">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis
+				<div class="card hoverable">
+					<div class="card-body text-center">
+						<p><i class="fa fa-cogs fa-5x"></i></p>
+						<h5 class="mb-3">PERSONAL CALIFICADO</h5>
+						<span>Disponemos de expertos, capaces de asesorar a nuestros clientes, ofreciendo las mejores soluciones para cada necesidad</span>
 					</div>
 				</div>
 			</div>
 			<div class="col">
-				<div class="card">
-					<div class="card-body">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque distinctio molestiae quas nemo velit quaerat quasi sit, beatae pariatur aut.
+				<div class="card hoverable">
+					<div class="card-body text-center">
+						<p><i class="fa fa-star fa-5x"></i></p>
+						<h5 class="mb-3">VENTA DE ACCESORIOS</h5>
+						<span>Contamos con una amplia variedad en accesorios para diferentes marcas. Ofrecemos precio especial a mayoristas</span>
 					</div>
 				</div>
 			</div>
 			<div class="col">
-				<div class="card">
-					<div class="card-body">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque distinctio molestiae quas nemo velit quaerat quasi sit, beatae pariatur aut.
+				<div class="card hoverable">
+					<div class="card-body text-center">
+						<p><i class="fa fa-gift fa-5x"></i></p>
+						<h5 class="mb-3">GARANTIA</h5>
+						<span>Ofrecemos 30 días de garantía sobre la reparación o refacción reemplazada de tu equipo movil, laptop o escritorio</span>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="jumbotron container mb-5">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut nesciunt, maiores suscipit. Voluptatem ipsa quos neque, ad assumenda! Labore quo, culpa alias ex nihil tenetur dolorem at nesciunt, tempore earum!
+
+
+	<!--Carousel Wrapper-->
+	<div class="container-fluid card p-5 mb-5 grey lighten-3 z-depth-2">	
+	
+		<!--Carousel Wrapper-->
+		<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+			<!--Controls-->
+			<!-- <div class="controls-top">
+				<a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+				<a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+			</div> -->
+			<!--/.Controls-->
+
+			<!--Indicators-->
+			<ol class="carousel-indicators">
+				<li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+				<li data-target="#multi-item-example" data-slide-to="1"></li>
+				<li data-target="#multi-item-example" data-slide-to="2"></li>
+			</ol>
+			<!--/.Indicators-->
+
+			<!--Slides-->
+			<div class="carousel-inner container" role="listbox">
+
+				<!--First slide-->
+				<div class="carousel-item active">
+
+					<div class="row">
+						<div class="col-md-6">
+							<div class="view overlay zoom">
+								<img src="46772862_2157167411267065_2196849864661270528_n.jpg" class="img-fluid img-thumbnail z-index-3">
+							</div>
+						</div>
+
+						<div class="col-md-6 ">
+							<div class="view overlay zoom">
+								<img src="accesorios-para-celular-D_NQ_NP_499421-MLM20789227580_062016-F.jpg" class="img-fluid img-thumbnail z-index-3">
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<!--/.First slide-->
+
+				<!--Second slide-->
+				<div class="carousel-item">
+					<div class="row">
+
+						<div class="col-md-7 ">
+							<div class="view overlay zoom">
+								<img src="servicio-tecnico-hp-computadoras-laptop-formateo-domicilio-D_NQ_NP_711137-MLV26700207316_012018-F.jpg" class="img-fluid img-thumbnail z-index-3">
+							</div>
+						</div>
+
+						<div class="col-md-5 ">
+							<div class="view overlay zoom">
+								<img src="46731124_289180918371981_6485602218429906944_n.jpg" class="img-fluid img-thumbnail z-index-3">
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<!--/.Second slide-->
+
+				<!-- Third slide -->
+				<div class="carousel-item">
+					<div class="row">
+
+						<div class="col-md-7">
+							<div class="view overlay zoom">
+								<img src="ITnHXJs.jpg" class="img-fluid img-thumbnail z-index-3">
+							</div>
+						</div>
+
+						<div class="col-md-5 ">
+							<div class="view overlay zoom">
+								<img src="46772862_2157167411267065_2196849864661270528_n.jpg" class="img-fluid img-thumbnail z-index-3">
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<!-- /Third slide -->
+
+			</div>
+			<!--/.Slides-->
+
+		</div>
+		<!--/.Carousel Wrapper-->
+
+
 	</div>
+
+
 
 	<div class="container mb-5">
 		<div class="d-flex justify-content-center">
 			
-			<div class="card testimonial-card mr-5">
+			<div class="card testimonial-card mr-5 hoverable">
 				<div class="card-up indigo lighten-1"></div>
 				<div class="avatar mx-auto white">
-					<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" alt="woman avatar">
+					<img src="av1.jpg" class="rounded-circle" alt="woman avatar">
 				</div>
 				<div class="card-body">
-					<h4 class="card-title">Anna Doe</h4>
+					<h4 class="card-title">Andreina Lopez</h4>
 					<hr>
-					<p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+					<p><i class="fa fa-quote-left"></i> Los chicos que me atendieron fueron muy amables y conocen bastante acerca del tema, tienen mi recomendacion</p>
 				</div>
 			</div>
 
-			<div class="card testimonial-card mr-5">
+			<div class="card testimonial-card mr-5 hoverable">
 				<div class="card-up indigo lighten-1"></div>
 				<div class="avatar mx-auto white">
-					<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" alt="woman avatar">
+					<img src="av2.jpg" class="rounded-circle" alt="woman avatar">
 				</div>
 				<div class="card-body">
-					<h4 class="card-title">Anna Doe</h4>
+					<h4 class="card-title">Angel Perez</h4>
 					<hr>
-					<p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+					<p><i class="fa fa-quote-left"></i> Esta gente si sabe trabajar, ademas cuentan con una amplia gama de accesorios al mejor precio.</p>
 				</div>
 			</div>
 
-			<div class="card testimonial-card mr-5">
+			<div class="card testimonial-card mr-5 hoverable">
 				<div class="card-up indigo lighten-1"></div>
 				<div class="avatar mx-auto white">
-					<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" alt="woman avatar">
+					<img src="av3.jpg" class="rounded-circle" alt="woman avatar">
 				</div>
 				<div class="card-body">
-					<h4 class="card-title">Anna Doe</h4>
+					<h4 class="card-title">María Rodriguez</h4>
 					<hr>
-					<p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+					<p><i class="fa fa-quote-left"></i> Me brindaron un muy buen servicio de verdad los recomiendo.</p>
 				</div>
 			</div>
 
 		</div>
 	</div>
+
+	<div class="footer-copyright p-3 indigo white-text d-flex justify-content-between">
+		<div class="">
+			<p class="lead">Inversiones y Conexiones CompuPhones</p>
+			<span class="small">Av. Miranda con Mariño C.C.P 13 de Julio, Nivel PB Local 01, Cagua, Edo Aragua</span><br>
+			<span class="small">Teléfonos: 0244-395.38.11, 0416-040.00.44</span>
+		</div>
+		<ul class="list-unstyled list-inline mt-3">
+			<li class="list-inline-item">
+				<a class="btn-floating btn-sm rgba-white-slight mx-1">
+					<i class="fa fa-facebook"></i>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="btn-floating btn-sm rgba-white-slight mx-1">
+					<i class="fa fa-twitter"></i>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="btn-floating btn-sm rgba-white-slight mx-1">
+					<i class="fa fa-google-plus"></i>
+				</a>
+			</li>
+		</ul>
+	</div>
 	
 
-	<script src="js/compiled.1023.min75a0mdb.js"></script>
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/compiled.1023.min75a0.js"></script>
+	<script>
+		$('.carousel').carousel()
+	</script>
 </body>
 </html>

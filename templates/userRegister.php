@@ -88,9 +88,9 @@ elseif ($_SESSION['nivel']=="usuario")
                 </div><br>
                 <div class="col-md-offset-1">
                     <input type="hidden" name="operation" value="save">
-                    <input type="submit" id="envio" value="GuardarUsuario" class="btn btn-primary">
+                    <input type="submit" id="envio" value="Guardar Usuario" class="btn btn-primary">
                 </div>
-            </form>
+            </form><br>
         </div>
       <!--   <div class="modal fade" id="modalEdit">
             <div class="modal-dialog">

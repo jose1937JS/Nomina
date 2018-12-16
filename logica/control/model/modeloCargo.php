@@ -45,7 +45,7 @@ class modeloCargo extends Conexion
 		$sql="UPDATE cargos SET nombre='$name',smensual='$smensual',squincenal='$squincenal',tickets=$ticket WHERE nombre='$name'";
 		// echo $sql;
 		$resultado = mysqli_query($link,$sql);
-		if($resultado){header("Location: ../../../templates/chargeRegister.php");}
+		if($resultado){header("Location: ../../templates/chargeRegister.php");}
 		else{echo "kdjfkls";}
 	}
  	

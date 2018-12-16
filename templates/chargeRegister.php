@@ -91,18 +91,18 @@ elseif ($_SESSION['nivel']=="usuario")
                                     <th class="e3">Tickets</th>   
                                 </tr>
                             <?php
-                            require_once '../logica/control/model/ModeloCargo.php';  
-                            $resultado = modeloCargo::selectInto();          
+                            require_once '../logica/control/model/modeloCargo.php';
+                            $resultado = modeloCargo::selectInto();
                             while ($row = $resultado->fetch_array(MYSQLI_NUM)){   
-                                echo "<tr class ='rowList'>";  
-                                echo "<td>$row[0]</td>"; 
-                                echo "<td>$row[1]</td>";  
-                                echo "<td>$row[2]</td>";  
+                                echo "<tr class ='rowList'>";
+                                echo "<td>$row[0]</td>";
+                                echo "<td>$row[1]</td>";
+                                echo "<td>$row[2]</td>";
                                 echo "<td>$row[3]</td>";
                                 echo "<td>$row[4]</td>";
-                                echo "</tr>";  
-                              }     
-                            ?>  
+                                echo "</tr>";
+                              }
+                            ?>
                             </table>
                         </div>
                     </div>

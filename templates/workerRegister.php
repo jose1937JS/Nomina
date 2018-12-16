@@ -31,7 +31,7 @@ elseif ($_SESSION['nivel']=="usuario")
             <div class="content-wrapper">                   
                 <form action="../logica/control/controlWorker.php" id="form-register" method="POST">
                     <div class="row col-md-offset-1">
-                        <h4 class="e1">DATOS PERNONALES DEL EMPLEADO</h4><br><br>
+                        <h4 class="e1">DATOS PERSONALES DEL EMPLEADO</h4><br><br>
                         <div class="row">
                             <?php if (isset($_GET['valida'])) {
                                 echo "<div class='col-md-8 alert alert-danger alert-dismissable'>";
@@ -41,31 +41,31 @@ elseif ($_SESSION['nivel']=="usuario")
                         </div>
                         <div class="col-md-3 col-sm-8">
                             <div class="form-group">
-                                <label class="e3" for="name">Nombres Del Empleado:</label>
+                                <label class="e3" for="name">Nombres del empleado:</label>
                                 <input name="name" type="text" class="form-control" id="name">
                             </div>
                             <div class="form-group">
-                                <label class="e3" for="lastname">Apellidos Del Empleado:</label>
+                                <label class="e3" for="lastname">Apellidos del empleado:</label>
                                 <input name="lastname" type="text" class="form-control" id="lastname">
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-8">
                             <div class="form-group">
-                                <label class="e3" for="cedula">Cedula Del Empleado:</label>
+                                <label class="e3" for="cedula">Cedula del empleado:</label>
                                 <input name="cedula" type="text" class="form-control" id="cedula">
                             </div>
                             <div class="form-group">
-                                <label class="e3" for="thelfone">Telefono Del Empleado:</label>
+                                <label class="e3" for="thelfone">Telefono del empleado:</label>
                                 <input name="thelfone" type="text" class="form-control" id="thelfone">
                             </div>
                         </div>
                          <div class="col-md-3 col-sm-8">
                             <div class="form-group">
-                                <label class="e3" for="address">Direccion Del Empleado:</label>
+                                <label class="e3" for="address">Direccion del empleado:</label>
                                 <input name="address" type="text" class="form-control" id="address">
                             </div>
                             <div class="form-group">
-                                <label class="e3" for="email">Corre Electronico:</label>
+                                <label class="e3" for="email">Correo Electronico:</label>
                                 <input name="email" type="email" class="form-control" id="email">
                             </div>
                         </div>
@@ -78,7 +78,7 @@ elseif ($_SESSION['nivel']=="usuario")
                                 <input name="count" type="number" class="form-control" id="count">
                             </div>
                             <div class="form-group">
-                                <label class="e3" for="date">FechaIngreso Del Empleado:</label>
+                                <label class="e3" for="date">FechaIngreso del empleado:</label>
                                 <input name="date" type="date" id="date" class="form-control">   
                             </div>                           
                         </div>
@@ -136,9 +136,10 @@ elseif ($_SESSION['nivel']=="usuario")
                     </div><br>
                     <div class="col-md-offset-1">
                         <input type="hidden" name="operationWorker" value="InsertIntoWorker">
-                        <input type="submit" value="GuardarEmpleado" class="btn btn-primary">
+                        <input type="submit" value="Guardar" class="btn btn-primary">
                     </div>
                 </form>  
+                <br>
             </div>
             <div class="modal fade" id="excelG">
                 <div class="modal-dialog">
@@ -170,7 +171,7 @@ elseif ($_SESSION['nivel']=="usuario")
                     <div class="modal-content">
                         <div class="modal-header">
                             <button tyle ="button" class="close" data-dismiss="modal" aria-hidden ="true">&times;</button>
-                            <h4 class="modal-title">Generacion De Constancia</h4>         
+                            <h4 class="modal-title">Generacion de constancia</h4>         
                         </div>
                         <div class="modal-body">                  
                             <form action="../logica/constanciaPdf.php" method="POST">
